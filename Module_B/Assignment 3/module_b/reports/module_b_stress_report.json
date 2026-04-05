@@ -1,0 +1,156 @@
+{
+  "generated": "2026-04-05T08:22:45.869509+00:00",
+  "target": "http://127.0.0.1:5000",
+  "overall_pass": true,
+  "summary": {
+    "run": 7,
+    "passed": 7,
+    "failed": 0,
+    "rate_pct": 100.0
+  },
+  "scenarios": [
+    {
+      "name": "health_probe",
+      "passed": true,
+      "total_requests": 20,
+      "successes": 20,
+      "failures": 0,
+      "p50_ms": 16.97,
+      "p95_ms": 36.59,
+      "min_ms": 6.56,
+      "max_ms": 36.59,
+      "throughput_rps": 51.62,
+      "status_distribution": {
+        "200": 20
+      },
+      "extra": {
+        "iterations": 20
+      }
+    },
+    {
+      "name": "login_baseline",
+      "passed": true,
+      "total_requests": 20,
+      "successes": 20,
+      "failures": 0,
+      "p50_ms": 138.81,
+      "p95_ms": 157.46,
+      "min_ms": 115.24,
+      "max_ms": 157.46,
+      "throughput_rps": 7.29,
+      "status_distribution": {
+        "200": 20
+      },
+      "extra": {
+        "tokens_received": 20
+      }
+    },
+    {
+      "name": "access_control",
+      "passed": true,
+      "total_requests": 2,
+      "successes": 0,
+      "failures": 2,
+      "p50_ms": 8.53,
+      "p95_ms": 12.35,
+      "min_ms": 4.71,
+      "max_ms": 12.35,
+      "throughput_rps": 109.18,
+      "status_distribution": {
+        "401": 2
+      },
+      "extra": {}
+    },
+    {
+      "name": "read_stress",
+      "passed": true,
+      "total_requests": 300,
+      "successes": 300,
+      "failures": 0,
+      "p50_ms": 146.1,
+      "p95_ms": 223.34,
+      "min_ms": 12.85,
+      "max_ms": 290.58,
+      "throughput_rps": 100.01,
+      "status_distribution": {
+        "200": 300
+      },
+      "extra": {
+        "users": 15,
+        "per_user": 20,
+        "ceiling_ms": 1500.0
+      }
+    },
+    {
+      "name": "crud_lifecycle",
+      "passed": true,
+      "total_requests": 5,
+      "successes": 4,
+      "failures": 1,
+      "p50_ms": 24.15,
+      "p95_ms": 35.64,
+      "min_ms": 11.08,
+      "max_ms": 35.64,
+      "throughput_rps": 42.07,
+      "status_distribution": {
+        "201": 1,
+        "200": 3,
+        "404": 1
+      },
+      "extra": {
+        "doc_id": 2001,
+        "fetched_name": "crud_test_784b227a_v2",
+        "confirm_gone_status": 404
+      }
+    },
+    {
+      "name": "failure_atomicity",
+      "passed": true,
+      "total_requests": 3,
+      "successes": 2,
+      "failures": 1,
+      "p50_ms": 38.57,
+      "p95_ms": 38.69,
+      "min_ms": 29.33,
+      "max_ms": 38.69,
+      "throughput_rps": 27.99,
+      "status_distribution": {
+        "200": 2,
+        "400": 1
+      },
+      "extra": {
+        "invalid_status": 400,
+        "count_before": 100,
+        "count_after": 100
+      }
+    },
+    {
+      "name": "race_update",
+      "passed": true,
+      "total_requests": 22,
+      "successes": 22,
+      "failures": 0,
+      "p50_ms": 140.8,
+      "p95_ms": 222.33,
+      "min_ms": 18.95,
+      "max_ms": 236.64,
+      "throughput_rps": 75.84,
+      "status_distribution": {
+        "201": 1,
+        "200": 21
+      },
+      "extra": {
+        "race_doc_id": 2001,
+        "writers": 20,
+        "unique_payloads": 20,
+        "final_matches_submitted": true
+      }
+    }
+  ],
+  "acid": {
+    "Atomicity": "PASS",
+    "Consistency": "PASS",
+    "Isolation": "PASS",
+    "Durability": "PASS"
+  }
+}
