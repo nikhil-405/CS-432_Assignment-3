@@ -1,0 +1,28 @@
+{
+  "name": "products",
+  "search_key": "product_id",
+  "tree": {
+    "t": 8,
+    "root": {
+      "leaf": true,
+      "keys": [
+        101,
+        102
+      ],
+      "values": [
+        {
+          "product_id": 101,
+          "name": "Keyboard",
+          "stock": 10,
+          "price": 100.0
+        },
+        {
+          "product_id": 102,
+          "name": "Mouse",
+          "stock": 20,
+          "price": 50.0
+        }
+      ]
+    }
+  }
+}

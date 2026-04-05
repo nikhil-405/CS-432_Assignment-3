@@ -1,0 +1,12 @@
+{
+  "name": "orders",
+  "search_key": "order_id",
+  "tree": {
+    "t": 8,
+    "root": {
+      "leaf": true,
+      "keys": [],
+      "values": []
+    }
+  }
+}

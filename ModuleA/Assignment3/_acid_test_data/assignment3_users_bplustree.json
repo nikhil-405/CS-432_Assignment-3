@@ -1,0 +1,212 @@
+{
+  "name": "users",
+  "search_key": "user_id",
+  "tree": {
+    "t": 8,
+    "root": {
+      "leaf": false,
+      "keys": [
+        8,
+        15
+      ],
+      "children": [
+        {
+          "leaf": true,
+          "keys": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "values": [
+            {
+              "user_id": 1,
+              "name": "Aarav",
+              "balance": 1000.0,
+              "city": "Delhi"
+            },
+            {
+              "user_id": 2,
+              "name": "Isha",
+              "balance": 500.0,
+              "city": "Pune"
+            },
+            {
+              "user_id": 3,
+              "name": "User3",
+              "balance": 103.0,
+              "city": "City3"
+            },
+            {
+              "user_id": 4,
+              "name": "User4",
+              "balance": 104.0,
+              "city": "City4"
+            },
+            {
+              "user_id": 5,
+              "name": "User5",
+              "balance": 105.0,
+              "city": "City5"
+            },
+            {
+              "user_id": 6,
+              "name": "User6",
+              "balance": 106.0,
+              "city": "City6"
+            },
+            {
+              "user_id": 7,
+              "name": "User7",
+              "balance": 107.0,
+              "city": "City7"
+            }
+          ]
+        },
+        {
+          "leaf": true,
+          "keys": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "values": [
+            {
+              "user_id": 8,
+              "name": "User8",
+              "balance": 108.0,
+              "city": "City8"
+            },
+            {
+              "user_id": 9,
+              "name": "User9",
+              "balance": 109.0,
+              "city": "City9"
+            },
+            {
+              "user_id": 10,
+              "name": "User10",
+              "balance": 110.0,
+              "city": "City10"
+            },
+            {
+              "user_id": 11,
+              "name": "User11",
+              "balance": 111.0,
+              "city": "City11"
+            },
+            {
+              "user_id": 12,
+              "name": "User12",
+              "balance": 112.0,
+              "city": "City12"
+            },
+            {
+              "user_id": 13,
+              "name": "User13",
+              "balance": 113.0,
+              "city": "City13"
+            },
+            {
+              "user_id": 14,
+              "name": "User14",
+              "balance": 114.0,
+              "city": "City14"
+            }
+          ]
+        },
+        {
+          "leaf": true,
+          "keys": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "values": [
+            {
+              "user_id": 15,
+              "name": "User15",
+              "balance": 115.0,
+              "city": "City15"
+            },
+            {
+              "user_id": 16,
+              "name": "User16",
+              "balance": 116.0,
+              "city": "City16"
+            },
+            {
+              "user_id": 17,
+              "name": "User17",
+              "balance": 117.0,
+              "city": "City17"
+            },
+            {
+              "user_id": 18,
+              "name": "User18",
+              "balance": 118.0,
+              "city": "City18"
+            },
+            {
+              "user_id": 19,
+              "name": "User19",
+              "balance": 119.0,
+              "city": "City19"
+            },
+            {
+              "user_id": 20,
+              "name": "User20",
+              "balance": 120.0,
+              "city": "City20"
+            },
+            {
+              "user_id": 21,
+              "name": "User21",
+              "balance": 121.0,
+              "city": "City21"
+            },
+            {
+              "user_id": 22,
+              "name": "User22",
+              "balance": 122.0,
+              "city": "City22"
+            },
+            {
+              "user_id": 23,
+              "name": "User23",
+              "balance": 123.0,
+              "city": "City23"
+            },
+            {
+              "user_id": 24,
+              "name": "User24",
+              "balance": 124.0,
+              "city": "City24"
+            },
+            {
+              "user_id": 25,
+              "name": "User25",
+              "balance": 125.0,
+              "city": "City25"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
